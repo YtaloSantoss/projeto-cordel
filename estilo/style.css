@@ -16,7 +16,7 @@
  }
 
  @media screen and (max-winth: 600px){
-     header, body, selection {
+     html, header, body, selection {
          width: 100%;
      }
  }
