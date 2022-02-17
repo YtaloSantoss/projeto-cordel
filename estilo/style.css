@@ -19,6 +19,10 @@
      html, header, body, selection {
          width: 100%;
      }
+
+     selection > p {
+         text-align: center;
+     }
  }
 
 html, body {
