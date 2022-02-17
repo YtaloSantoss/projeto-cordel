@@ -15,7 +15,7 @@
      font-size: 1em;
  }
 
- @media screen and (max-winth: 600px){
+ @media screen and (max-winth: 720px){
      html, header, body, selection {
          width: 100%;
      }
