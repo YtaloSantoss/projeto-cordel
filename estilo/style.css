@@ -22,8 +22,11 @@
 
      selection > p {
          text-align: center;
+         background-position: left ;
+         background-color: aquamarine;
      }
- }
+     
+}   
 
 html, body {
     min-height: 100vh;
