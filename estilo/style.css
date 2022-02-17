@@ -19,12 +19,14 @@ html, body {
     min-height: 100vh;
     background-color: #a9a9a9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
 }
 
 header {
     background-image: linear-gradient( to bottom,hsla(0, 0%, 0%, 0.781), rgb(0, 0, 0));
     color: #ffffff;
     text-align: center;
+    margin:auto;
 }
 
 header > h1 {
