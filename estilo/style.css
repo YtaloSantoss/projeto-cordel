@@ -15,19 +15,6 @@
      font-size: 1em;
  }
 
- @media screen and (max-winth: 730px){
-     html, header, body, selection {
-         width: 100%;
-     }
-
-     selection > p {
-         text-align: center;
-         background-position: left ;
-         background-color: aquamarine;
-     }
-     
-}   
-
 html, body {
     min-height: 100vh;
     background-color: #a9a9a9;
@@ -103,6 +90,21 @@ section#img002 {
     background-image: url(../imagens/pexels-pixabay-.jpg);
     
 }
+
+
+@media screen and (max-winth: 730px){
+    html, header, body, selection {
+        width: 100%;
+    }
+
+    selection > p {
+        text-align: center;
+        background-position: left ;
+        background-color: aquamarine;
+    }
+    
+}   
+
 footer {
     color: #ffffff;
     background-image: linear-gradient( to bottom,hsla(0, 0%, 0%, 0.781), rgb(0, 0, 0));
