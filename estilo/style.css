@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'titulo';
+    src: url('../fonte/OpenSans-ExtraBold.ttf') format('opentype');
+}
+@font-face{
+    font-family:'palagrafos';
+    src: url('../fonte/Sriracha-Regular.ttf') format('opentype');
+}
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-size: 1em;
+ }
+
+html, body {
+    min-height: 100vh;
+    background-color: #a9a9a9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: linear-gradient( to bottom,hsla(0, 0%, 0%, 0.781), rgb(0, 0, 0));
+    color: #ffffff;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 45px;
+    font-variant: small-caps;
+    font-family: 'titulo';
+    font-size: 2.7em;
+}
+
+header > p {
+    padding-bottom:45px;
+}
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 9vh;
+    line-height: 2em;
+    font-family:'palagrafos';
+    font-size: 1.5em;
+}
+
+section > p {
+    padding-bottom: 2em ;
+}
+
+section.normal {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+section.imagem > p {
+    background-color:rgba(0, 0, 0, 0.486);
+    padding:5px;
+    width: 400px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
+}
+
+section.imagem {
+    background-color: #000000d0;
+    color: #ffffff;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.603);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img001 {
+    background-image: url(../imagens/pexels-cristian-.jpg);
+    background-position: right center;
+    
+}
+
+section#img002 {
+    background-image: url(../imagens/pexels-pixabay-.jpg);
+    
+}
+footer {
+    color: #ffffff;
+    background-image: linear-gradient( to bottom,hsla(0, 0%, 0%, 0.781), rgb(0, 0, 0));
+    text-align: center;
+    padding: 10px;
+}
