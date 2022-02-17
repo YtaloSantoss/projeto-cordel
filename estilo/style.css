@@ -20,6 +20,8 @@ html, body {
     background-color: #a9a9a9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 header {
