@@ -28,14 +28,14 @@ header {
 }
 
 header > h1 {
-    padding-top: 45px;
+    padding-top: 50px;
     font-variant: small-caps;
     font-family: 'titulo';
     font-size: 2.7em;
 }
 
 header > p {
-    padding-bottom:45px;
+    padding-bottom:50px;
 }
 
 a {
@@ -49,7 +49,7 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding: 9vh;
+    padding: 10vh;
     margin: 10vh;
     line-height: 2em;
     padding-left: 30px;
@@ -70,7 +70,7 @@ section.normal {
 section.imagem > p {
     background-color:rgba(0, 0, 0, 0.486);
     padding:5px;
-    width: 400px;
+    display:inline-block;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
@@ -93,20 +93,6 @@ section#img002 {
     
 }
 
-/*
-@media screen and (max-winth: 730px) {
-    html, header, body, selection {
-        width: 100%;
-    }
-
-    selection > p {
-        text-align: center;
-        background-position: left ;
-        background-color: aquamarine;
-    }
-    
-}   
-*/
 footer {
     color: #ffffff;
     background-image: linear-gradient( to bottom,hsla(0, 0%, 0%, 0.781), rgb(0, 0, 0));
