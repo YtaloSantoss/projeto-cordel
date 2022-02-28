@@ -36,6 +36,11 @@ header > h1 {
 
 header > p {
     padding-bottom:50px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 a {
@@ -49,8 +54,8 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding: 10vh;
-    margin: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family:'palagrafos';
@@ -68,10 +73,9 @@ section.normal {
 }
 
 section.imagem > p {
+    display:inline-block;
     background-color:rgba(0, 0, 0, 0.486);
     padding:5px;
-    display:inline-block;
-    width: 400px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
