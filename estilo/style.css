@@ -50,6 +50,7 @@ header a:hover, footer a:hover {
 
 section {
     padding: 9vh;
+    margin: 10vh;
     line-height: 2em;
     font-family:'palagrafos';
     font-size: 1.5em;
