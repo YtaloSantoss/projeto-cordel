@@ -80,7 +80,6 @@ section.imagem {
     box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.603);
     background-size: cover;
     background-attachment: fixed;
-    width: 400px;
 }
 
 section#img001 {
