@@ -31,7 +31,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: 'titulo';
-    font-size: 2.7em;
+    font-size: 10vw;
 }
 
 header > p {
@@ -54,12 +54,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family:'palagrafos';
-    font-size: 1.5em;
+    font-size: 3,5vw;
 }
 
 section > p {
     padding-bottom: 2em;
-    font-size: 1.5em
 }
 
 section.normal {
